@@ -1,0 +1,100 @@
+.hero {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heropic {
+  max-width: 100%;   
+}
+
+.hero-text {
+  text-align: left;      /* Optional: center text inside elements */  
+}
+
+.hero-span span {
+  color: #04DAC3;
+  font-weight: bold;
+}
+
+.pretext { 
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 0.7rem;
+}
+
+.hero-button {
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(24 24 27);
+  border-color: transparent;
+  color: #04DAC3;
+  border-color: #04DAC3;
+  margin-right: 10px;
+  padding: .7rem 1rem;
+
+}
+
+.hero-button:hover {
+  background-color: #04DAC3;
+  color: rgb(24 24 27);
+  border-color: transparent;
+  transition-duration: .3s;
+}
+
+.hero-button2 {
+  font-weight: bold;
+  border-radius: 5px;
+  background-color:  #04DAC3;
+  border-color: transparent;
+  color: rgb(24 24 27);
+  border-color: #04DAC3;
+  margin-right: 10px;
+  padding: .7rem 1rem;
+}
+
+.hero-button2:hover {
+  background-color: #04DAC3;
+  color: rgb(24 24 27);
+  border-color: transparent;
+}
+
+.link a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.link a :hover{
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+
+
+@media (max-width: 768px){
+  .row {
+    padding-top: 20%;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    text-align: center;
+    height: 100%;
+  }
+
+  .hero-text {
+    margin-bottom: 2rem;
+  }
+
+  .heropic {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .hero-button,
+  .hero-button2 {
+    margin-top: 0.5rem;
+  }
+
+}

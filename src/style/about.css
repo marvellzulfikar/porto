@@ -1,0 +1,86 @@
+.about-section {
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-bg {
+  background-color: rgb(39 39 42);
+  padding: 40px;
+  width: 90%;
+  max-width: 100%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  border-radius: 12px;
+  min-height: 50vh;
+  margin-bottom: 10%;
+  
+}
+
+.intro {
+  text-align: center;
+}
+
+.quotes h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.quotes-author h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+
+#about-section {
+  scroll-margin-top: 80px;
+}
+
+
+@media (max-width: 768px){
+  .about-bg {
+    background-color: #232323;
+    padding: 40px 20px;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 12px;
+    min-height: 50vh;
+  }
+
+  .intro {
+    text-align: justify;
+    font-size: small;
+  }
+
+  .quotes {
+    text-align: center;
+  }
+
+  .quotes h3 {
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+  }
+
+  .quotes-author {
+    text-align: center;
+  }
+
+  .quotes-author h4 {
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+  }
+
+}

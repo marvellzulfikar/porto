@@ -1,0 +1,98 @@
+.tech {
+    padding-bottom: 7%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#techstack-section {
+  scroll-margin-top: 80px;
+}
+
+.tech-title {
+  margin-bottom: 30px;
+}
+
+.tech-title strong {
+  border-bottom: 1px solid #04DAC3;
+  padding-bottom: .5rem;
+}
+
+.tech-text {
+  padding-bottom: 2rem;
+}
+
+.rectangle {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  flex-direction: column;
+
+      
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+}
+
+.rectangle img {
+  max-width: 70%;     /* make sure the image doesn't overflow */
+  max-height: 70%;
+}
+
+.rec-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.rec-desc {
+  font-size: small;
+}
+
+.row > [class^="col"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: max-content;
+}
+
+@media (max-width: 768px){
+  .tech {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .tech-text {
+    font-size: small;
+    padding-bottom: 20px;
+    text-align: justify;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .rec-row {
+    padding-top: 1rem;
+  }
+
+  .tech-title {
+    margin-bottom: 20px;
+  }
+
+  .rec-desc {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #ccc;
+
+    /* Clamp to 5 lines on mobile */
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+}
